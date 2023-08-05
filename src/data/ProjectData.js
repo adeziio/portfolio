@@ -49,7 +49,7 @@ export const ProjectList = [
     img: "/textanalysis.png",
     title: "Text Analysis",
     description: "A text analysis application that provides a variety of services for text.",
-    tech_stack: ['React', 'HTML', 'CSS', 'GoogleAPI', 'GoogleMaps'],
+    tech_stack: ['React', 'HTML', 'CSS', 'RapidAPI'],
     github_url_1: "https://github.com/adeziio/text-analysis",
     github_url_2: "",
     demo_url: "https://text-analysis.vercel.app/",
