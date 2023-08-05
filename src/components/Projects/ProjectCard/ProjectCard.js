@@ -34,7 +34,7 @@ function ProjectCard() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Github
+                    Front-End
                   </a>
                 }
                 {list.github_url_2.length > 0 &&
@@ -44,7 +44,7 @@ function ProjectCard() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Github
+                    Back-End
                   </a>
                 }
                 {list.demo_url.length > 0 &&

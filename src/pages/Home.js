@@ -11,8 +11,8 @@ function Home() {
   return (
     <>
       <Hero />
-      <Projects />
       <About />
+      <Projects />
       <Stats />
       <Contact />
       <FixSocialIcon />

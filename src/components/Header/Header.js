@@ -12,11 +12,11 @@ const Header = ({ toggle }) => {
           />
         </Logo>
         <NavMenu>
-          <NavLink className="menu-item" to="projects">
-            Projects
-          </NavLink>
           <NavLink className="menu-item" to="about">
             About
+          </NavLink>
+          <NavLink className="menu-item" to="projects">
+            Projects
           </NavLink>
           <NavLink className="menu-item" to="stats">
             Stats
