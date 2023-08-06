@@ -5,9 +5,11 @@ export const ContactWrapper = styled.div`
 `;
 
 export const Image = styled.img`
-  max-width: 120px;
   margin: 0 auto;
   margin-bottom: 1rem;
+  height: 300px;
+  width: auto;
+  border-radius: 50%; 
 `;
 
 export const Technologies = styled.div`

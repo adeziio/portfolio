@@ -29,7 +29,7 @@ function About() {
             </ScrollAnimation>
             <div className="AboutBio">
               <ScrollAnimation animateIn="fadeInLeft">
-                Hello! My legal name is <strong>Thien</strong>, but my friends call me <strong>Aden</strong>. I am originally from Vietnam and have been living in the United States for over 15 years. With over 3 years of working experience, I gained valuable experience through various software development positions,  which greatly enhanced my work ethic, communication skills, and adaptability.
+                Hello! My legal name is <strong>Thien</strong>, but I go by <strong>Aden</strong>. I am originally from Vietnam and have been living in the United States for over 15 years. With over 3 years of working experience, I gained valuable knowledge through various software development positions,  which greatly enhanced my work ethic, communication skills, and adaptability.
               </ScrollAnimation>
               <br /><br />
               <ScrollAnimation animateIn="fadeInLeft">
