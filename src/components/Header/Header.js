@@ -40,7 +40,7 @@ const Header = ({ toggle }) => {
           </a>
         </NavBtn>
         <Bars onClick={toggle} />
-        <img style={{ position: "absolute", right: 180, top: 20 }} src="https://visitor-badge.laobi.icu/badge?page_id=adeziio.2" />
+        <img style={{ position: "absolute", right: 160, top: 20 }} src="https://visitor-badge.laobi.icu/badge?page_id=adeziio.2" />
       </Nav>
     </div>
   );
