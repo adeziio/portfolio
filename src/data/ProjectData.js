@@ -28,13 +28,13 @@ export const ProjectList = [
     demo_url: "https://gideon-chat.vercel.app/",
   },
   {
-    img: "/waddle.png",
-    title: "Waddle",
+    img: "/wordo.png",
+    title: "Wordo",
     description: "A Web-based game that is inspired by Wordle from The New York Times.",
     tech_stack: ['React', 'HTML', 'CSS'],
-    github_url_1: "https://github.com/adeziio/waddle",
+    github_url_1: "https://github.com/adeziio/wordo",
     github_url_2: "",
-    demo_url: "https://waddlez.vercel.app/",
+    demo_url: "https://wordo-game.vercel.app/",
   },
   {
     img: "/locator.png",
