@@ -21,22 +21,22 @@ function About() {
         <div className="Container">
           <div className="SectionTitle">About Me&nbsp;{<FaBook />} </div>
           <div className="BigCard">
-            <ScrollAnimation animateIn="fadeInLeft">
+            <ScrollAnimation animateIn="fadeIn">
               <Image
                 src="/pfp.jpg"
                 alt="man-svgrepo"
               />
             </ScrollAnimation>
             <div className="AboutBio">
-              <ScrollAnimation animateIn="fadeInLeft">
+              <ScrollAnimation animateIn="fadeIn">
                 Hello! My legal name is <strong>Thien</strong>, but I go by <strong>Aden</strong>. I am originally from Vietnam and have been living in the United States for over 15 years. With over 3 years of working experience, I gained valuable knowledge through various software development positions,  which greatly enhanced my work ethic, communication skills, and adaptability.
               </ScrollAnimation>
               <br /><br />
-              <ScrollAnimation animateIn="fadeInLeft">
+              <ScrollAnimation animateIn="fadeIn">
                 My journey into the world of technology began with a strong passion for coding and problem-solving, which led me to pursue the Computer Science program at George Mason University (GMU). Despite its challenges, I remained determined and forged lasting friendships that supported me throughout the years.
               </ScrollAnimation>
               <br /><br />
-              <ScrollAnimation animateIn="fadeInLeft">
+              <ScrollAnimation animateIn="fadeIn">
                 Working collaboratively within a team towards a shared objective has been an incredibly rewarding and amazing experience for me. I am eager to continue exploring exciting projects in the future, with a particular interest in full-stack development and cross-platform mobile development.
                 <br /><br />
                 <div className="tagline2">
@@ -45,7 +45,7 @@ function About() {
               </ScrollAnimation>
               <Technologies>
                 {stackList.map((stack, index) => (
-                  <ScrollAnimation animateIn="fadeInLeft" key={index}>
+                  <ScrollAnimation animateIn="fadeIn" key={index}>
                     <Tech key={index} className="tech">
                       <TechImg src={stack.img} alt={stack.name} />
                       <TechName>{stack.name}</TechName>

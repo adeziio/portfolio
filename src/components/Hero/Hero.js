@@ -28,7 +28,7 @@ function Hero() {
       <HeroContainer>
         <HeroWrapper>
           <HeroLeft>
-            <ScrollAnimation animateIn="fadeIn" >
+            <ScrollAnimation animateIn="fadeInLeft" >
               <TypeAnimation
                 cursor={false}
                 sequence={[
@@ -86,7 +86,7 @@ function Hero() {
 
           </HeroLeft>
           <HeroRight>
-            <ScrollAnimation animateIn="fadeIn">
+            <ScrollAnimation animateIn="fadeInRight">
               <Image
                 src="/man-svgrepo-com.gif"
                 alt="man-svgrepo"

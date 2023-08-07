@@ -13,7 +13,7 @@ function ProjectCard() {
   return (
     <>
       {ProjectList.map((list, index) => (
-        <ScrollAnimation animateIn="fadeInLeft" key={index}>
+        <ScrollAnimation animateIn={index % 2 === 0 ? "fadeInLeft" : "fadeInRight"} key={index}>
           <Card>
             <CardLeft>
               <img src={list.img} alt={list.name} />
@@ -27,20 +27,30 @@ function ProjectCard() {
                 ))}
               </TechCardContainer>
               <BtnGroup>
-                {list.github_url_1.length > 0 &&
+                {list.github_url.length > 0 &&
                   <a
                     className="btn SecondaryBtn btn-shadow"
-                    href={list.github_url_1}
+                    href={list.github_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub
+                  </a>
+                }
+                {list.github_url_frontend.length > 0 &&
+                  <a
+                    className="btn SecondaryBtn btn-shadow"
+                    href={list.github_url_frontend}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     Front-End
                   </a>
                 }
-                {list.github_url_2.length > 0 &&
+                {list.github_url_backend.length > 0 &&
                   <a
                     className="btn SecondaryBtn btn-shadow"
-                    href={list.github_url_2}
+                    href={list.github_url_backend}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
