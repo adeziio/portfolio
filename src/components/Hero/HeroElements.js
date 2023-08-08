@@ -79,7 +79,7 @@ export const HeroRight = styled.div`
 `;
 
 export const Image = styled.img`
-  height: 300px;
+  height: 270px;
   width: auto;
   border: 5px solid yellow;
   border-radius: 50%; 
