@@ -93,7 +93,7 @@ export const ProjectList = [
   {
     img: "/yoshii.png",
     title: "Yoshii",
-    description: "An AI Chatbot that likes to roast people. Capable of solving complicated problems and has the ability to generate images from text.",
+    description: "An AI Chat Bot that likes to roast people. Capable of solving complicated problems and has the ability to generate images from text.",
     tech_stack: ['Python', 'Flask', 'Discord', 'OpenAI', 'Stable Diffusion', 'DALL-E', 'AWS DynamoDB'],
     github_url: "https://github.com/adeziio/yoshii",
     github_url_frontend: "",
@@ -103,7 +103,7 @@ export const ProjectList = [
   {
     img: "/yumii.png",
     title: "Yumii",
-    description: "An AI Discord Chatbot that likes to roast people. Capable of solving complicated problems and has the ability to generate image from text.",
+    description: "A Discord Music Bot that plays music while you are in a Voice Channel. A great way to enjoy listening to music with your friends.",
     tech_stack: ['Python', 'Flask', 'Discord', 'YouTube-DL', 'FFmpeg'],
     github_url: "https://github.com/adeziio/yumii",
     github_url_frontend: "",
