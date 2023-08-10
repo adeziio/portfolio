@@ -33,7 +33,7 @@ export const ProjectList = [
   {
     img: "/wordo.png",
     title: "Wordo",
-    description: "A Web-based game that is inspired by Wordle from The New York Times.",
+    description: "A Web-based game that is inspired by Wordle from The New York Times. Guess the word in 6 tries to win.",
     tech_stack: ['React', 'HTML', 'CSS'],
     github_url: "",
     github_url_frontend: "https://github.com/adeziio/wordo",
