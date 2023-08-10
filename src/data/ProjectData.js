@@ -93,7 +93,7 @@ export const ProjectList = [
   {
     img: "/yoshii.png",
     title: "Yoshii",
-    description: "An AI Chat Bot that likes to roast people. Capable of solving complicated problems and has the ability to generate images from text.",
+    description: "An AI Chat Bot that likes to roast people. Capable of solving complex problems and has the ability to generate images from text.",
     tech_stack: ['Python', 'Flask', 'Discord', 'OpenAI', 'Stable Diffusion', 'DALL-E', 'AWS DynamoDB'],
     github_url: "https://github.com/adeziio/yoshii",
     github_url_frontend: "",
