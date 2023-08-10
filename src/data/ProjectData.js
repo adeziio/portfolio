@@ -93,7 +93,8 @@ export const ProjectList = [
   {
     img: "/yoshii.png",
     title: "Yoshii",
-    description: "An AI Chat Bot that likes to roast people. Capable of solving complex problems and has the ability to generate images from text.",
+    description: "An Discord Chat Bot that likes to roast people. Capable of solving complex problems and has the ability to generate images from text. \
+    Additionally, there is Karma Ranking System where anything you say within the discord server will either add or subtract your total karma points.",
     tech_stack: ['Python', 'Flask', 'Discord', 'OpenAI', 'Stable Diffusion', 'DALL-E', 'AWS DynamoDB'],
     github_url: "https://github.com/adeziio/yoshii",
     github_url_frontend: "",
