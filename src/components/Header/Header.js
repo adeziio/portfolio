@@ -27,7 +27,7 @@ const Header = ({ toggle }) => {
         </NavMenu>
         <NavBtn>
           <a
-            href="https://docs.google.com/viewer?url=https://docs.google.com/document/d/1uyviIHz89b5G8LTWmABypK-EnwzLsr2M/export?format=pdf"
+            href="https://drive.google.com/file/d/1oVB30lMmn2nmWQP46kdqRhfj34E4_GH_/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
