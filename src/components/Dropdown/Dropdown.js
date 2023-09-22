@@ -88,18 +88,12 @@ function Dropdown({ isOpen, toggle }) {
         </NavLink>
       </NavMenu>
       <NavBtn onClick={toggle}>
-        <a
-          href="https://docs.google.com/viewer?url=https://docs.google.com/document/d/1uyviIHz89b5G8LTWmABypK-EnwzLsr2M/export?format=pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Logo >
-            <img
-              src="/resume.png"
-              alt="logo"
-            />
-          </Logo>
-        </a>
+        <Logo >
+          <img
+            src="/resume.png"
+            alt="logo"
+          />
+        </Logo>
       </NavBtn>
     </SiderBar>
   );

@@ -26,18 +26,12 @@ const Header = ({ toggle }) => {
           </NavLink>
         </NavMenu>
         <NavBtn>
-          <a
-            href="https://drive.google.com/file/d/1oVB30lMmn2nmWQP46kdqRhfj34E4_GH_/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Logo>
-              <img
-                src="/resume.png"
-                alt="logo"
-              />
-            </Logo>
-          </a>
+          <Logo>
+            <img
+              src="/resume.png"
+              alt="logo"
+            />
+          </Logo>
         </NavBtn>
         <Bars onClick={toggle} />
         <img style={{ position: "absolute", right: 160, top: 20 }} src="https://visitor-badge.laobi.icu/badge?page_id=adeziio.2" alt="visitors" />
