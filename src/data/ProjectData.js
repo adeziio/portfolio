@@ -1,6 +1,16 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
+    img: "/whos-that-pokemon.gif",
+    title: "Who's That Pokemon?",
+    description: "Inspired by the classic \"Who's That Pokémon?\" segment, this app challenges players to guess the Pokémon based on its silhouette before time runs out.",
+    tech_stack: ['React Native', 'Expo', 'Pokemon APIs'],
+    github_url: "https://github.com/adeziio/whos-that-pokemon",
+    github_url_frontend: "",
+    github_url_backend: "",
+    demo_url: "https://github.com/user-attachments/assets/96f5e571-e1b7-42f1-ba7d-efd9b43efd09",
+  },
+  {
     img: "/stargallery.png",
     title: "Star Gallery",
     description: "A collection of photos that can be uploaded by anyone.",
