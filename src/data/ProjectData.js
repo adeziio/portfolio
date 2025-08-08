@@ -2,9 +2,10 @@
 export const ProjectList = [
   {
     img: "/whos-that-pokemon.gif",
+    img2: "/whos-that-pokemon2.gif",
     title: "Who's That Pokemon?",
     description: "Inspired by the classic \"Who's That Pokémon?\" segment, this app challenges players to guess the Pokémon based on its silhouette before time runs out.",
-    tech_stack: ['React Native', 'Expo', 'Mobile APP Development', 'Cross-Platform', 'IOS', 'Android', 'Pokemon APIs'],
+    tech_stack: ['React Native', 'Expo', 'Mobile App Development', 'Cross-Platform', 'iOS', 'Android', 'Pokemon APIs'],
     github_url: "https://github.com/adeziio/whos-that-pokemon",
     github_url_frontend: "",
     github_url_backend: "",
@@ -12,6 +13,7 @@ export const ProjectList = [
   },
   {
     img: "/stargallery.png",
+    img2: "",
     title: "Star Gallery",
     description: "A collection of photos that can be uploaded by anyone.",
     tech_stack: ['React', 'HTML', 'CSS', 'NodeJs', 'Express', 'Vercel', 'AWS S3'],
@@ -22,6 +24,7 @@ export const ProjectList = [
   },
   {
     img: "/starchat.png",
+    img2: "",
     title: "Star Chat",
     description: "A group messaging application, similar to Discord. You can create chat rooms to communicate with your friends.",
     tech_stack: ["React", "HTML", "CSS", "Python", "Flask", "Vercel", "AWS DynamoDB"],
@@ -32,6 +35,7 @@ export const ProjectList = [
   },
   {
     img: "/gideon.png",
+    img2: "",
     title: "Gideon AI",
     description: "An AI model with the capability to solve problems and can also generate drawings, pictures and images based on a given prompt.",
     tech_stack: ['React', 'HTML', 'CSS', "Python", "Flask", "Vercel", 'OpenAI', 'Stable Diffusion', 'DALL-E'],
@@ -42,6 +46,7 @@ export const ProjectList = [
   },
   {
     img: "/wordo.png",
+    img2: "",
     title: "Wordo",
     description: "A Web-based game that is inspired by Wordle from The New York Times. Guess the word in 6 tries to win.",
     tech_stack: ['React', 'HTML', 'CSS'],
@@ -52,6 +57,7 @@ export const ProjectList = [
   },
   {
     img: "/locator.png",
+    img2: "",
     title: "My Locator",
     description: "A map application.",
     tech_stack: ['React', 'HTML', 'CSS', 'GoogleAPI', 'GoogleMaps'],
@@ -62,6 +68,7 @@ export const ProjectList = [
   },
   {
     img: "/textanalysis.png",
+    img2: "",
     title: "Text Analysis",
     description: "A text analysis application that provides a variety of services for text.",
     tech_stack: ['React', 'HTML', 'CSS', 'RapidAPI'],
@@ -72,6 +79,7 @@ export const ProjectList = [
   },
   {
     img: "/trivia.png",
+    img2: "",
     title: "Trivia Quiz",
     description: "A quiz application that provides questions from variety of topics.",
     tech_stack: ['React', 'HTML', 'CSS', 'RapidAPI'],
@@ -82,6 +90,7 @@ export const ProjectList = [
   },
   {
     img: "/scorekeeper.png",
+    img2: "",
     title: "Scorekeeper",
     description: "A scorekeeper application consist of scorekeepings and leaderboards.",
     tech_stack: ['React', 'HTML', 'CSS'],
@@ -92,6 +101,7 @@ export const ProjectList = [
   },
   {
     img: "/horsegotchi.png",
+    img2: "",
     title: "Horsegotchi",
     description: "A web-based game where you can feed, pet and play with your pet horse.",
     tech_stack: ['React', 'HTML', 'CSS'],
@@ -102,6 +112,7 @@ export const ProjectList = [
   },
   {
     img: "/yoshii.png",
+    img2: "",
     title: "Yoshii",
     description: "A Discord Chat Bot that likes to roast people. Capable of solving complex problems and has the ability to generate images from text. \
     Additionally, there is Karma Ranking System where anything you say within the discord server will either add or subtract to your total karma points.",
@@ -113,6 +124,7 @@ export const ProjectList = [
   },
   {
     img: "/yumii.png",
+    img2: "",
     title: "Yumii",
     description: "A Discord Music Bot that plays music while you are in a Voice Channel. A great way to enjoy listening to music with your friends.",
     tech_stack: ['Python', 'Flask', 'Discord', 'YouTube-DL', 'FFmpeg'],
