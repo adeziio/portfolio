@@ -17,7 +17,6 @@ function ProjectCard() {
           <Card>
             <CardLeft>
               {list.img ? <img src={list.img} alt={list.name} /> : null}
-              {list.img2 ? <img src={list.img2} alt={list.name} /> : null}
             </CardLeft>
             <CardRight>
               <h4>{list.title}</h4>
