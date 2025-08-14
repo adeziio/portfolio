@@ -31,16 +31,6 @@ export const ProjectList = [
     demo_url: "https://starchat.vercel.app/",
   },
   {
-    img: "/gideon.png",
-    title: "Gideon AI",
-    description: "An AI model with the capability to solve problems and can also generate drawings, pictures and images based on a given prompt.",
-    tech_stack: ['React', 'HTML', 'CSS', "Python", "Flask", "Vercel", 'OpenAI', 'Stable Diffusion', 'DALL-E'],
-    github_url: "",
-    github_url_frontend: "https://github.com/adeziio/gideon",
-    github_url_backend: "https://github.com/adeziio/gideon-ai",
-    demo_url: "https://gideon-chat.vercel.app/",
-  },
-  {
     img: "/wordo.png",
     title: "Wordo",
     description: "A Web-based game that is inspired by Wordle from The New York Times. Guess the word in 6 tries to win.",
@@ -49,6 +39,16 @@ export const ProjectList = [
     github_url_frontend: "https://github.com/adeziio/wordo",
     github_url_backend: "",
     demo_url: "https://wordo-game.vercel.app/",
+  },
+  {
+    img: "/gideon.png",
+    title: "Gideon AI",
+    description: "An AI model with the capability to solve problems and can also generate drawings, pictures and images based on a given prompt.",
+    tech_stack: ['React', 'HTML', 'CSS', "Python", "Flask", "Vercel", 'OpenAI', 'Stable Diffusion', 'DALL-E'],
+    github_url: "",
+    github_url_frontend: "https://github.com/adeziio/gideon",
+    github_url_backend: "https://github.com/adeziio/gideon-ai",
+    demo_url: "https://gideon-chat.vercel.app/",
   },
   {
     img: "/locator.png",
